@@ -123,3 +123,30 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+
+/* add a smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* add a slide in animation */
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/*add animation to allow arrow icon to scroll down to next section */
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
